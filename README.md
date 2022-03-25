@@ -27,7 +27,7 @@ ___________________________________________________________________________
      *
      * @var array<int, string>
      */
-    public function departament()
+    public function department()
     {
         return $this->belongsTo(department::class,'department_id');
     }
